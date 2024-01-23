@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* padding-top: 80px; */
+}
+
+nav {
+    /* position: fixed; */
+    /* top: 0; */
+    /* z-index: 100; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin:0px 60px 0px 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 223);
+    font-size: 1.2rem;
+
+}
+
+hr{
+    border: 0;
+    background: rgb(153,153,223);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3em;
+}
+
+.rightsection img {
+    width: 100%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.text-grey{
+    color: grey;
+}
+
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height:auto;
+}
+.project-box div{
+    display:inline-flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 180px;
+    height: 100px;
+    margin: 15px 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-box div:hover{
+    border: 3px solid rgb(153, 153, 223);
+    color: rgb(153, 153, 223);
+    font-size: 2rem;
+}
+
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+
+.fourthsection ul li {
+    list-style: none;
+    margin:0px 0px 0px 60px;
+    font-size: 1.9rem;
+}
+.fourthsection ul li a{
+    text-decoration: none;
+    color: white;
+}
+.box ul li{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white; 
+}
+.fourthsection ul li:hover{
+    border: 3px solid rgb(153, 153, 223);
+    background-color: rgb(153, 153, 223);
+    font-size: 2rem;
+}
+
+footer{
+    height:5vw;
+    margin: 20px;
+}
+footer p{
+    text-align: center;
+}
